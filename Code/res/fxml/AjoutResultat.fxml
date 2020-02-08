@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<GridPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            prefHeight="400.0" prefWidth="600.0">
+
+
+    <Text text="Joueur 1" GridPane.columnIndex="5" GridPane.rowIndex="0"/>
+    <TextField fx:id="PlayerOneF" alignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="1" maxHeight="10" maxWidth="100"/>
+    <CheckBox fx:id="PlayerOneCB" GridPane.rowIndex="1" GridPane.columnIndex="7"/>
+
+    <Text text="Joueur 2" GridPane.rowIndex="2" GridPane.columnIndex="5"/>
+    <TextField fx:id="PlayerTwoF" GridPane.columnIndex="5" GridPane.rowIndex="3" maxHeight="10" maxWidth="100"/>
+    <CheckBox fx:id="PlayerTwoCB" GridPane.rowIndex="3" GridPane.columnIndex="7"/>
+
+    <Text text="Gagnant" GridPane.rowIndex="0" GridPane.columnIndex="7"/>
+
+    <Button fx:id="addButton" mnemonicParsing="false" text="Ajouter" GridPane.columnIndex="5" GridPane.rowIndex="5"/>
+    <Button fx:id="backButton" mnemonicParsing="false" text="Retour" GridPane.columnIndex="6" GridPane.rowIndex="5"/>
+
+
+</GridPane>

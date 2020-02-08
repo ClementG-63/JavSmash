@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.Text?>
+<AnchorPane id="background" fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <Rectangle fill="CORNFLOWERBLUE" height="75.0" layoutX="100.0" layoutY="50.0" width="75.0" stroke="black" strokeWidth="2" />
+  <Rectangle fill="DARKRED" height="75.0" layoutX="1400.0" layoutY="50.0" width="75.0" stroke="black" strokeWidth="2"/>
+  <StackPane  layoutX="290.0" layoutY="-25.0" prefHeight="150.0" prefWidth="200.0" >
+    <Rectangle height="35.0" width="241.0">
+      <fill>
+        <Color blue="0.875" green="0.875" red="0.875" fx:id="x1" />
+      </fill>
+    </Rectangle>
+    <Rectangle id="" fx:id="healthBarPlayerA" fill="#ffc633" height="17.0" width="283.0" />
+  </StackPane>
+
+
+  <Text text="Dégat : " textAlignment="CENTER" layoutX="650.0" layoutY="50.0" />
+  <Text fx:id="textDamage"  textAlignment="CENTER" layoutX="695.0" layoutY="50.0" />
+
+
+
+
+  <StackPane layoutX="795.0" layoutY="-25.0" prefHeight="150.0" prefWidth="200.0">
+    <Rectangle id="" fill="$x1" height="35.0" width="241.0" />
+    <Rectangle id="" fx:id="healthBarPlayerB" fill="#00cc83" height="17.0" width="283.25" />
+  </StackPane>
+</AnchorPane>
