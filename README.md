@@ -6,3 +6,5 @@ Le projet a été réalisé en collaboration avec un autre élève et la répart
  La conception et l'implémentation a été intégralement réalisée par mes soins.
 
 La note finale est de 16.5/20
+
+TOUS LES DOCUMENTS TECHNIQUES SONT RECUPERABLES DANS LE REPERTOIRE "DOCUMENTATION" (Diagramme de classe, cas d'utilisation, relation entre package, diagramme de package, sketch...)
